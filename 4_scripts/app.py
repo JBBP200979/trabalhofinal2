@@ -5,7 +5,7 @@ from sqlalchemy import create_engine
 import plotly.express as px
 import plotly.graph_objects as go
 
-engine = create_engine('sqlite:///banco.db', echo = True)
+engine = create_engine('sqlite:///4_scripts/banco.db', echo = True)
 
 # Título da aplicação
 st.write('Preços Placas de Video no site Kabum')
